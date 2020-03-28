@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+}
+.header img {
+  width: 64px;
+  height: 64px;
+}
+.header-info h4 {
+  font-size: 24px;
+}
+.header-info p {
+  color: #6c757d;
+}
+.center {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.bage {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #f1e05a;
+}
+.container {
+  background: #f4f4f4;
+  min-height: calc(100vh - 105px);
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.top-panle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-panle .panle-left {
+  display: flex;
+  color: #212529;
+}
+.top-panle .panle-right {
+  display: flex;
+}
+.top-panle .panle-right .select-btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  background: #fff;
+  margin-left: 16px;
+  font-size: 14px;
+  color: #495057;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.top-panle .panle-right .select-btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.list-wrap {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-wrap .list-item {
+  width: 33.333%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.list-wrap .con {
+  width: 80%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -5px 10px 60px -13px rgba(0, 0, 0, 0.2);
+  height: 270px;
+}
+.list-wrap .con .item-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.list-wrap .con .item-top img {
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+.list-wrap .con .item-top h4 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #6c757d;
+}
+.list-wrap .con .item-top p {
+  font-size: 12px;
+  color: #007bff;
+}
+.list-wrap .con .name {
+  font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 17px;
+  color: #007bff;
+}
+.list-wrap .con .tag {
+  height: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  color: #495057;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.list-wrap .con .tag span {
+  padding-left: 3px;
+}
+.list-wrap .con .tag .tag-item {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+.list-wrap .con .intro {
+  margin-bottom: 0;
+  max-height: 6em;
+  overflow: hidden;
+  font-size: 14px;
+  color: #495057;
+}
